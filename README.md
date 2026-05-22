@@ -85,109 +85,29 @@ java -jar target/GeradorDeSenhasJavaFx-1.0-SNAPSHOT.jar
 5. **A senha gerada aparece** no campo "Senha Gerada:" em destaque (texto cyan em fundo preto)
 6. **Copie a senha** do campo e use conforme necessário
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 GeradorDeSenhasJavaFx/
-├── src/
-│   └── main/
-│       └── java/
-│           ├── module-info.java
-│           └── joao/projetos/geradordesenhasjavafx/
-│               ├── GeradorDeSenhas.java      (Lógica de geração)
-│               ├── Launcher.java              (Ponto de entrada)
-│               └── ProjetoGeradorDeSenhasGUI.java (Interface)
-├── target/                                    (Arquivos compilados)
-├── pom.xml                                    (Configuração Maven)
-├── mvnw                                       (Maven Wrapper - Linux/Mac)
-├── mvnw.cmd                                   (Maven Wrapper - Windows)
-└── README.md                                  (Este arquivo)
+├── src/main/java/
+│   ├── module-info.java
+│   └── joao/projetos/geradordesenhasjavafx/
+│       ├── GeradorDeSenhas.java
+│       ├── Launcher.java
+│       └── ProjetoGeradorDeSenhasGUI.java
+├── pom.xml
+└── README.md
 ```
 
-## 🔧 Classes Principais
+## Arquivos Principais
 
-### GeradorDeSenhas.java
-Contém a lógica principal de geração de senhas seguras.
+GeradorDeSenhas.java - Contém a lógica de geração de senhas seguras utilizando SecureRandom.
 
-```java
-// Método público para gerar senhas
-public static String gerarSenha(int comprimento)
-```
+Launcher.java - Classe de inicialização que lança a aplicação JavaFX.
 
-**Características:**
-- Utiliza `SecureRandom` para segurança criptográfica
-- Suporta tamanhos variáveis de senha
-- Inclui caracteres especiais para maior complexidade
+ProjetoGeradorDeSenhasGUI.java - Interface gráfica da aplicação.
 
-### Launcher.java
-Classe de inicialização que lança a aplicação JavaFX.
+## Licença
 
-```java
-public static void main(String[] args) {
-    Application.launch(ProjetoGeradorDeSenhasGUI.class, args);
-}
-```
-
-### ProjetoGeradorDeSenhasGUI.java
-Interface gráfica baseada em JavaFX.
-
-**Componentes:**
-- `Label` - Rótulos para os campos
-- `TextField` - Campos de entrada e saída
-- `Button` - Botão para gerar senhas
-- `VBox` - Layout vertical da interface
-
-## 🧪 Testes
-
-Para executar os testes unitários:
-
-```bash
-./mvnw test
-```
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Por favor:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 🐛 Problemas Conhecidos
-
-- Nenhum no momento. Reporte problemas [aqui](../../issues).
-
-## 📝 Melhorias Futuras
-
-- [ ] Opção de copiar senha automaticamente para a área de transferência
-- [ ] Permite customizar quais caracteres incluir na geração
-- [ ] Histórico de senhas geradas
-- [ ] Validação de força da senha
-- [ ] Suporte a múltiplos idiomas
-- [ ] Tema escuro/claro
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
-
-**João Pedro** - Desenvolvedor Java
-
-## 📞 Contato
-
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- Email: seu-email@exemplo.com
-
----
-
-<div align="center">
-
-**💡 Dica:** Use senhas geradas por este aplicativo para proteger suas contas online!
-
-Feito com ❤️ em Java
-
-</div>
+MIT
 
