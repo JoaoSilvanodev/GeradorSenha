@@ -1,24 +1,24 @@
-# 🔐 Gerador de Senhas Java FX
+# Gerador de Senhas Java FX
 
 Um aplicativo de geração de senhas aleatórias e seguras com interface gráfica moderna desenvolvido em JavaFX.
 
-## 📋 Descrição
+## Descrição
 
-O **Gerador de Senhas JavaFX** é uma aplicação desktop que permite gerar senhas aleatórias de forma rápida e segura. O aplicativo utiliza `SecureRandom` para gerar senhas criptograficamente seguras com caracteres variados (letras maiúsculas, minúsculas, números e símbolos especiais).
+O Gerador de Senhas JavaFX é uma aplicação desktop que permite gerar senhas aleatórias de forma rápida e segura. O aplicativo utiliza SecureRandom para gerar senhas criptograficamente seguras com caracteres variados (letras maiúsculas, minúsculas, números e símbolos especiais).
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 🎯 Geração de senhas aleatórias seguras
-- 📏 Customização do tamanho da senha
-- 🔤 Suporte a múltiplos tipos de caracteres:
+- Geração de senhas aleatórias seguras
+- Customização do tamanho da senha
+- Suporte a múltiplos tipos de caracteres:
   - Letras maiúsculas (A-Z)
   - Letras minúsculas (a-z)
   - Números (0-9)
   - Caracteres especiais (!@#$%^&*()_+)
-- 🎨 Interface gráfica intuitiva com JavaFX
-- 🔒 Uso de `SecureRandom` para máxima segurança
+- Interface gráfica intuitiva com JavaFX
+- Uso de SecureRandom para máxima segurança
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Java 22**
 - **JavaFX 21.0.6** - Framework para interface gráfica
@@ -76,7 +76,7 @@ java joao.projetos.geradordesenhasjavafx.Launcher
 java -jar target/GeradorDeSenhasJavaFx-1.0-SNAPSHOT.jar
 ```
 
-## 📖 Como Usar
+## Como Usar
 
 1. **Inicie o aplicativo** utilizando um dos comandos acima
 2. **Janela da aplicação abre** com campos de entrada
