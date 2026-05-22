@@ -25,7 +25,7 @@ O Gerador de Senhas JavaFX é uma aplicação desktop que permite gerar senhas a
 - **Maven** - Gerenciador de dependências e build
 - **JUnit 5** - Framework para testes unitários
 
-## 📦 Pré-requisitos
+## Pré-requisitos
 
 Antes de executar o projeto, certifique-se de ter instalado:
 
@@ -38,7 +38,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
   mvn -version
   ```
 
-## 🚀 Instalação e Execução
+## Instalação e Execução
 
 ### 1. Clone o repositório
 
@@ -107,7 +107,4 @@ Launcher.java - Classe de inicialização que lança a aplicação JavaFX.
 
 ProjetoGeradorDeSenhasGUI.java - Interface gráfica da aplicação.
 
-## Licença
-
-MIT
 
